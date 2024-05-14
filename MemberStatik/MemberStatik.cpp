@@ -16,8 +16,9 @@ public:
         nama = pnama;
         setID();
     }
-    
 };
+
+int mahasiswa::nim = 113;
 
 int main()
 {
