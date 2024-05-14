@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <string>
 
 class mahasiswa
 {
@@ -20,6 +21,10 @@ public:
 
 int mahasiswa::nim = 113;
 
+void mahasiswa::setID()
+{
+    id = nim++;
+}
 int main()
 {
     
