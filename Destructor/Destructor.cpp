@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-#include <string>
 
 class angka
 {
@@ -20,6 +19,15 @@ angka::angka(int i) //constructor
     arr = new int[i];
     isiData();
 }
+
+angka::~angka() //destructor
+{
+    cout << endl;
+    cetakData();
+    delete[]arr;
+    cout << "Alamat Array Sudah Dilepaskan" << endl;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
