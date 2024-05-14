@@ -6,7 +6,14 @@ class Mahasiswa
 {
 public:
     int nim;
-    string nama
+    string nama;
+
+public:
+    Mahasiswa()
+    {
+        nim = 0;
+        nama = "";
+    }
 };
 
 int main()
