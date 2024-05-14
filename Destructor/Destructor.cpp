@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <string>
 
 class angka
 {
@@ -12,6 +13,13 @@ public:
     void cetakData();
     void isiData();
 };
+//Definisi member function
+angka::angka(int i) //constructor
+{
+    panjang = i;
+    arr = new int[i];
+    isiData();
+}
 int main()
 {
     std::cout << "Hello World!\n";
