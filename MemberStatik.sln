@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemberStatikfunction", "Mem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructor", "Constructor\Constructor.vcxproj", "{760309C6-8435-44B7-AF8F-B9F894733DA8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Destructor", "Destructor\Destructor.vcxproj", "{06A99A80-AF6D-4D7C-BFE1-635737D20224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{760309C6-8435-44B7-AF8F-B9F894733DA8}.Release|x64.Build.0 = Release|x64
 		{760309C6-8435-44B7-AF8F-B9F894733DA8}.Release|x86.ActiveCfg = Release|Win32
 		{760309C6-8435-44B7-AF8F-B9F894733DA8}.Release|x86.Build.0 = Release|Win32
+		{06A99A80-AF6D-4D7C-BFE1-635737D20224}.Debug|x64.ActiveCfg = Debug|x64
+		{06A99A80-AF6D-4D7C-BFE1-635737D20224}.Debug|x64.Build.0 = Debug|x64
+		{06A99A80-AF6D-4D7C-BFE1-635737D20224}.Debug|x86.ActiveCfg = Debug|Win32
+		{06A99A80-AF6D-4D7C-BFE1-635737D20224}.Debug|x86.Build.0 = Debug|Win32
+		{06A99A80-AF6D-4D7C-BFE1-635737D20224}.Release|x64.ActiveCfg = Release|x64
+		{06A99A80-AF6D-4D7C-BFE1-635737D20224}.Release|x64.Build.0 = Release|x64
+		{06A99A80-AF6D-4D7C-BFE1-635737D20224}.Release|x86.ActiveCfg = Release|Win32
+		{06A99A80-AF6D-4D7C-BFE1-635737D20224}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
